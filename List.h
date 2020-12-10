@@ -161,7 +161,7 @@ public:
 		++_size;
 		return pos;
 		}
-	IteratorList erase(IteratorList pos) {
+	IteratorList erase(IteratorList pos) {			// говнит чета с указателями
 		if (_tail == _head) {
 			delete _head;
 			_head = nullptr;
